@@ -16,7 +16,6 @@
   font-style: normal;
 }
 
-
 *{
     max-width: 1440px;
     margin: 0 auto;
@@ -38,10 +37,9 @@
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
-
 }
-.brown_button{
 
+.brown_button{
     font-family: "Quicksand", serif;
     width: 197px;
     height: 50px;
@@ -52,24 +50,19 @@
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
-
 }
 
-
 /* nav bar */
-
 
 .logo_picture{
     width: 62px;
     height: 62px;
 }
-.navbar{
-    /* display: flex; */
-    /* justify-content: space-between;
-    align-items: center; */
-    padding: 20px 0;
 
+.navbar{
+    padding: 20px 0;
 }
+
 nav>div>h1{
     font-size: 32px;
     font-weight: 700;
@@ -84,16 +77,20 @@ nav>div>h1{
     list-style: none;
     margin-right: 30px;
 }
+
 .split>ul>li>a{
     text-decoration: none;
     font-size: 20px;
 }
+
 .color_orange{
     color: #FEA301;
 }
+
 .color_sky_blue{
     color: #01ACFD;
 }
+
 .orange_bold{
     color: #FEA301;
     font-weight: 700;
@@ -120,10 +117,10 @@ nav>div>h1{
     border-bottom: 1px solid #FEA301;
     justify-content: space-between;
 }
+
 .mobile_view>img{
     margin: 12px 16px;
 }
-
 
 /* marquee */
 
@@ -132,9 +129,7 @@ nav>div>h1{
     font-size: 20px;
     font-weight: 500;
     padding: 10px 10px;
-    /* background-color: #; */
 }
-
 
 /* header */
 
@@ -142,11 +137,13 @@ nav>div>h1{
     align-items: center;
     justify-content: space-between;
 }
+
 .container_items>h1{
     font-weight: 700;
     font-size: 56px;
     color: #111111;
 }
+
 .container_items>p{
     color: #111111;
     font-size: 20px;
@@ -158,7 +155,6 @@ nav>div>h1{
     width: 100%;
 }
 
-
 /* standard_curriculum */
 .standard_curriculum{
     background: url("pictures/bg.png");
@@ -168,16 +164,13 @@ nav>div>h1{
 
     flex-direction: column;
     justify-content: center;
-
 }
 
 .standard_curriculum h1{
-
     color: #000000;
     font-weight: 700;
     font-size: 46px;
 }
-
 
 .card_holder{
     display: grid;
@@ -186,7 +179,6 @@ nav>div>h1{
 
     margin-top: 80px;
     margin-bottom: 80px;
-
 }
 
 .card{
@@ -195,12 +187,10 @@ nav>div>h1{
     justify-content: center;
     flex-direction: column;
 
-    /* rgba(222, 245, 255, 1) */
-
     background: rgb(255,255,255);
     background: linear-gradient(00deg, rgba(255,255,255,1) 60%, rgba(222,245,255,1) 100%);
-
 }
+
 .card>img{
     margin-top: 52px;
 }
@@ -233,6 +223,7 @@ nav>div>h1{
     background: rgb(255,255,255);
     background: linear-gradient(00deg, rgba(255,255,255,1) 60%, rgba(255, 244, 220, 1) 100%);
 }
+
 .purple_gradient{
     border: 1px solid rgba(242, 232, 255, 1);
     background: rgb(255,255,255);
@@ -250,7 +241,6 @@ nav>div>h1{
 /* arrow */
 
 .arrow_container{
-    /* color: #FFFFFF; */
     font-size: 24px;
     text-align: center;
     width: 60px;
@@ -264,7 +254,16 @@ nav>div>h1{
     color: #FFFFFF;
 }
 
+.arrow_container:hover{
+    background-color:#8700FF ;
+}
+
+.arrow_container>h1:hover{
+    color: #FEA301;
+}
+
 /* our stories section */
+
 .stories{
 
     background: linear-gradient(
@@ -290,26 +289,27 @@ nav>div>h1{
     grid-area: card_grid_1;
     height: 630px;
     background-color: #FFFFFF;
-    width: 540px;
+    /* width: 540px; */
 }
 .card_grid_2{
     grid-area: card_grid_2;
 }
+
 .card_grid_3{
     grid-area: card_grid_3;
 }
+
 .card_grid_4{
     grid-area: card_grid_4;
 }
+
 .card_grid_5{
     grid-area: card_grid_5;
 }
 
-
 .card_grid_2, .card_grid_3, .card_grid_4, .card_grid_5{
     height: 300px;
     background-color: #FFFFFF;
-
 }
 
 .storie_card> button{
@@ -328,7 +328,6 @@ nav>div>h1{
     margin-left: 38px;
     position: relative;
     bottom: 22px;
-
 }
 
 .storie_card>h3{
@@ -354,12 +353,11 @@ nav>div>h1{
 .storie_card{
     /* width: 100%; */
     border-radius: 16px;
-
 }
 
 .storie_card>img{
     width: 100%;
-    /* border-radius: 16px; */
+
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
 }
@@ -367,17 +365,18 @@ nav>div>h1{
 .card_grid_3>button{
     background-color: #5D58F0;
 }
+
 .card_grid_1>button{
     background-color: #3CD8E8;
     height: 48px;
     bottom: 28px;
 }
+
 .card_grid_1>h3{
     font-size: 24px;
     font-weight: 700;
     color: #000000;
     margin: 25px 99px 51px 38px;
-
 }
 
 .card_grid_1>p{
@@ -402,7 +401,6 @@ footer{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 .footer_three{
@@ -419,11 +417,13 @@ footer{
     font-size: 42px;
     font-weight: 700;
 }
+
 .footer_header>img{
     margin: 0px 0px;
     height: 82px;
     width: 82px;
 }
+
 .footer_three>p{
     font-size: 20px;
     margin-top: 35px;
@@ -434,6 +434,7 @@ footer{
     font-size: 24px;
     font-weight: 700;
 }
+
 .footer_three>ul>li{
     list-style: none;
     margin-bottom: 20px;
@@ -475,11 +476,13 @@ footer{
         margin: 17px;
 
     }
+
     .container_items{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .container_items>p, .container_items>h1{
         text-align: center;
     }
@@ -488,10 +491,12 @@ footer{
         margin-top: 20px;
         font-size: 32px;
     }
+
     .container_items>p{
         font-weight: 500;
         font-size: 14px;
     }
+
     .br_display, .arrow, .card_grid_1{
         display: none;
     }
@@ -500,12 +505,9 @@ footer{
 
     .card_holder{
         grid-template-columns: repeat(1, 1fr);
-
-        /* margin-top: 20px;
-        margin-bottom: 20px; */
         margin: 10px 20px;
-    
     }
+
     .standard_curriculum{
         padding-top: 20px;
         padding-bottom: 10px;
@@ -541,15 +543,16 @@ footer{
     }
 
     /* footer */
+
     footer{
         padding: 0px;
     }
+
     .footer_container{
         padding-top: 40px;
         padding-bottom: 200px;
 
         grid-template-columns: repeat(1, 1fr);
-    
     }
 
     .footer_three{
@@ -563,7 +566,6 @@ footer{
     
     .footer_header>h1{
         font-size: 36px;
-
     }
 
     .footer_header>h3{
@@ -571,11 +573,13 @@ footer{
         font-weight: 600;
         margin-top: 20px;
     }
+
     .footer_three>ul{
         list-style-type: none;
         margin-left: 0px;
         padding-left: 0px;
     }
+
     .footer_three>ul>li{
         list-style: none;
         margin-bottom: 10px;
@@ -602,13 +606,6 @@ footer{
         margin-bottom: 32px;
         margin-top: 32px;
     }
-    
 }
 
-
-
-
-
-
-
-
+/* THE END */
