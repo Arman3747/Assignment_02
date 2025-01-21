@@ -1,4 +1,166 @@
-body{
-background-color: red;
-    
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand_fonts {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+*{
+    max-width: 1440px;
+    margin: 0 auto;
 }
+
+/* shared styles */
+.display_flex{
+    display: flex;
+}
+
+.black_button{
+    font-family: "Quicksand", serif;
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    background-color: #111111;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.brown_button{
+
+    font-family: "Quicksand", serif;
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    background-color: #FEA301;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+/* nav bar */
+
+
+.logo_picture{
+    width: 62px;
+    height: 62px;
+}
+.navbar{
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center; */
+    padding: 20px 0;
+
+}
+nav>div>h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.split{
+    /* display: flex; */
+    align-items: center;
+}
+.split>ul{
+    /* display: flex; */
+}
+.split>ul>li{
+    list-style: none;
+    margin-right: 30px;
+}
+.split>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.color_orange{
+    color: #FEA301;
+}
+.color_sky_blue{
+    color: #01ACFD;
+}
+.orange_bold{
+    color: #FEA301;
+    font-weight: 700;
+}
+
+.blue_medium_01{
+    color: #01ACFD;
+    font-weight: 500;
+}
+
+.blue_medium_02{
+    color: #05D4DF;
+    font-weight: 500;
+}
+
+.blue_medium_03{
+    color: #5D58EF;
+    font-weight: 500;
+}
+
+
+/* marquee */
+
+.marquee_div{
+    color: #5D58EF;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px;
+    /* background-color: #; */
+}
+
+
+/* header */
+
+.container{
+    align-items: center;
+    justify-content: space-between;
+}
+.container_items>h1{
+    font-weight: 700;
+    font-size: 56px;
+    color: #111111;
+}
+.container_items>p{
+    color: #111111;
+    font-size: 20px;
+    margin: 24px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
