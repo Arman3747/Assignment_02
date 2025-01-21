@@ -139,14 +139,112 @@ nav>div>h1{
 }
 
 
+/* standard_curriculum */
+.standard_curriculum{
+    background: url("pictures/bg.png");
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.standard_curriculum h1{
+
+    color: #000000;
+    font-weight: 700;
+    font-size: 46px;
+}
 
 
+.card_holder{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.card{
+    border-radius: 19px;
+    border: 1px solid rgba(222, 245, 255, 1);
+    justify-content: center;
+    flex-direction: column;
+
+    /* rgba(222, 245, 255, 1) */
+
+    background: rgb(255,255,255);
+    background: linear-gradient(00deg, rgba(255,255,255,1) 60%, rgba(222,245,255,1) 100%);
+
+}
+.card>img{
+    margin-top: 52px;
+}
+
+.card>h3{
+    margin-top: 32px;
+    color: #202020;
+    font-size: 24px;
+    font-weight: 700;
 
 
+}
 
+.card>p{
+    text-align: center;
+    margin: 40px;
+    color: #808080;
+    font-size: 15px;
+    font-weight: 500;
+}
 
+.card>a{
+    color: #64C8FF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 58px;
+}
 
+.orange_gradient{
 
+    border: 1px solid rgba(255, 244, 220, 1);
+    background: rgb(255,255,255);
+    background: linear-gradient(00deg, rgba(255,255,255,1) 60%, rgba(255, 244, 220, 1) 100%);
+}
+.purple_gradient{
+    border: 1px solid rgba(242, 232, 255, 1);
+    background: rgb(255,255,255);
+    background: linear-gradient(00deg, rgba(255,255,255,1) 60%, rgba(242, 232, 255, 1) 100%);
+}
+
+.a_orange{
+    color: #F0AA00;
+}
+
+.a_purple{
+    color: #8700FF;
+}
+
+/* arrow */
+
+.arrow_container{
+    /* color: #FFFFFF; */
+    font-size: 24px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background-color: #FEA301;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.arrow_container>h1{
+    color: #FFFFFF;
+}
 
 
 
